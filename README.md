@@ -4,9 +4,8 @@ A new Flutter project, it was created using the `flutter create flutter_bytebank
 
 ## Emulators
 
-The command `flutter emulators` list the emulators available.
-
-The command `flutter emulators --launch emulator-id` runs the emulator.
+* The command `flutter emulators` list the emulators available.
+* The command `flutter emulators --launch emulator-id` runs the emulator.
 
 ## Getting Started
 
