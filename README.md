@@ -1,4 +1,4 @@
-# flutter_bytebank
+# Flutter Byte Bank
 
 A new Flutter project, it was created using the `flutter create flutter_bytebank` command.
 
