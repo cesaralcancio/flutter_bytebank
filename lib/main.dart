@@ -1,15 +1,26 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(
+void main() => runApp(ByteBankApp());
+
+class ByteBankApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return MaterialApp(
       home: Scaffold(
         body: FormularioTransferencia(),
       ),
-    ));
+    );
+  }
+}
 
 class FormularioTransferencia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(title: Text('Criando transferencia')),
+      body: Text('teste'),
+    );
   }
 }
 
