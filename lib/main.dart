@@ -16,22 +16,27 @@ class ListaTransferencia extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        ItemTransferencia(),
-        ItemTransferencia(),
-        ItemTransferencia(),
+        ItemTransferencia('10', '1234'),
+        ItemTransferencia('20', '4567'),
+        ItemTransferencia('30', '9876'),
       ],
     );
   }
 }
 
 class ItemTransferencia extends StatelessWidget {
+  final String valor;
+  final String numeroConta;
+
+  ItemTransferencia(this.valor, this.numeroConta);
+
   @override
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
         leading: Icon(Icons.monetization_on),
-        title: Text('50.00'),
-        subtitle: Text('100.00'),
+        title: Text(valor),
+        subtitle: Text(numeroConta),
       ),
     );
   }
