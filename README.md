@@ -6,6 +6,27 @@ A new Flutter project, it was created using the `flutter create flutter_bytebank
 
 * The command `flutter emulators` list the emulators available.
 * The command `flutter emulators --launch emulator-id` runs the emulator.
+
+**For example**
+
+```shell
+❯ flutter emulators
+2 available emulators:
+
+apple_ios_simulator • iOS Simulator   • Apple  • ios
+Nexus_5X_API_28     • Nexus 5X API 28 • Google • android
+
+To run an emulator, run 'flutter emulators --launch <emulator id>'.
+To create a new emulator, run 'flutter emulators --create [--name xyz]'.
+
+You can find more information on managing emulators at the links below:
+  https://developer.android.com/studio/run/managing-avds
+  https://developer.android.com/studio/command-line/avdmanager
+  
+
+❯ flutter emulators --launch apple_ios_simulator
+```
+
 ## Version
 
 ```shell
