@@ -17,7 +17,7 @@ Tools • Dart 2.13.1
 ```
 
 ## The Byte Bank App
-![alt The Byte Bank App](img/app.gif)
+![alt The Byte Bank App](img/app-full.gif)
 
 ## Getting Started
 
