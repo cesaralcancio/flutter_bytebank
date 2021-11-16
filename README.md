@@ -40,6 +40,9 @@ Tools • Dart 2.13.1
 ## The Byte Bank App
 ![alt The Byte Bank App](img/app-full.gif)
 
+## Good practices
+https://medium.com/flutter-community/flutter-code-organization-de3a4c219149
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
